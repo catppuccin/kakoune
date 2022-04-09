@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/uncomfyhalomacro/kakoune/assets/screenshot.png"/>
+  <img src="https://raw.githubusercontent.com/uncomfyhalomacro/kakoune/main/assets/screenshot.png"/>
 </p>
 
 ## About
