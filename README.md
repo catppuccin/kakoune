@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/uncomfyhalomacro/kakoune/main/assets/screenshot.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/kakoune/main/assets/screenshot.png"/>
 </p>
 
 ## About
@@ -21,7 +21,7 @@ This is a port of Catppuccin for the [Kakoune](https://kakoune.org) modal editor
 ## Installation with [plug.kak](https://github.com/andreyorst/plug.kak)
 
 ```kak
-plug "uncomfyhalomacro/kakoune" theme config %{
+plug "catppuccin/kakoune" theme config %{
 	colorscheme catppuccin
 }
 ```
@@ -31,12 +31,12 @@ plug "uncomfyhalomacro/kakoune" theme config %{
 ```sh
 mkdir -p ~/.config/kak/colors
 cd ~/.config/kak/colors
-curl -O "https://raw.githubusercontent.com/uncomfyhalomacro/kakoune/main/colors/catppuccin.kak"
+curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin.kak"
 ```
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Pocco81](https://github.com/Pocco81)
 
 &nbsp;
 
