@@ -22,7 +22,7 @@ This is a port of Catppuccin for the [Kakoune](https://kakoune.org) modal editor
 
 ```kak
 plug "catppuccin/kakoune" theme config %{
-	colorscheme catppuccin_(ThemeName)
+	colorscheme catppuccin
 }
 ```
 
