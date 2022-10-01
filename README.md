@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/kakoune/main/assets/screenshot.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/kakoune/main/assets/res.webp"/>
 </p>
 
 ## About
