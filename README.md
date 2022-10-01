@@ -31,7 +31,10 @@ plug "catppuccin/kakoune" theme config %{
 ```sh
 mkdir -p ~/.config/kak/colors
 cd ~/.config/kak/colors
-curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin.kak"
+curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_mocha.kak"
+curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_mocchiato.kak"
+curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_frappe.kak"
+curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_latte.kak"
 ```
 
 ## 💝 Thanks to
