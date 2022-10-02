@@ -32,7 +32,7 @@ plug "catppuccin/kakoune" theme config %{
 mkdir -p ~/.config/kak/colors
 cd ~/.config/kak/colors
 curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_mocha.kak"
-curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_mocchiato.kak"
+curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_macchiato.kak"
 curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_frappe.kak"
 curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_latte.kak"
 ```
