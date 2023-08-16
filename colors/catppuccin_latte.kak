@@ -29,15 +29,15 @@ evaluate-commands %sh{
     crust='rgb:dce0e8'
 
     echo "
-        set-face global title  "${rosewater}"
-        set-face global header "${red}"
-        set-face global bold   "${mauve}"
-        set-face global italic "${lavender}"
-        set-face global mono   "${green}"
-        set-face global block  "${sapphire}"
-        set-face global link   "${green}"
-        set-face global bullet "${green}"
-        set-face global list   "${text}"
+        set-face global title  ${rosewater}
+        set-face global header ${red}
+        set-face global bold   ${mauve}
+        set-face global italic ${lavender}
+        set-face global mono   ${green}
+        set-face global block  ${sapphire}
+        set-face global link   ${green}
+        set-face global bullet ${green}
+        set-face global list   ${text}
 
         set-face global Default            ${text},${base}
         set-face global PrimarySelection   ${surface2},${lavender}
