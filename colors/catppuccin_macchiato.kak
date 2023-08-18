@@ -66,17 +66,17 @@ evaluate-commands %sh{
         set-face global BufferPadding      ${base},${base}
 
         set-face global value         ${peach}
-        set-face global type          ${rosewater}
+        set-face global type          ${blue}
         set-face global variable      ${text}
         set-face global module        ${maroon}
-        set-face global function      ${sky}
+        set-face global function      ${blue}
         set-face global string        ${green}
-        set-face global keyword       ${blue}
-        set-face global operator      ${blue}
+        set-face global keyword       ${mauve}
+        set-face global operator      ${sky}
         set-face global attribute     ${green}
         set-face global comment       ${overlay0}
         set-face global documentation comment
-        set-face global meta          ${pink}
-        set-face global builtin       ${lavender}+b
+        set-face global meta          ${yellow}
+        set-face global builtin       ${red}
     "
 }
