@@ -59,7 +59,7 @@ evaluate-commands %sh{
         set-face global StatusLineInfo     ${crust}${teal}
         set-face global StatusLineValue    ${crust},${yellow}
         set-face global StatusCursor       ${crust},${rosewater}
-        set-face global Prompt             ${teal},${base}
+        set-face global Prompt             ${teal},${base}+b
         set-face global MatchingChar       ${maroon},${base}
         set-face global Whitespace         ${overlay1},${base}+f
         set-face global WrapMarker         Whitespace
