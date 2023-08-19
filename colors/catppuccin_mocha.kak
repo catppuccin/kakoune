@@ -40,28 +40,28 @@ evaluate-commands %sh{
         set-face global list   ${peach}
 
         set-face global Default            ${text},${base}
-        set-face global PrimarySelection   ${surface2},${lavender}
-        set-face global SecondarySelection ${lavender},${surface2}
-        set-face global PrimaryCursor      ${base},${rosewater}
-        set-face global SecondaryCursor    ${mantle},${teal}
-        set-face global PrimaryCursorEol   ${surface2},${mauve}
-        set-face global SecondaryCursorEol ${surface2},${maroon}
-        set-face global LineNumbers        ${overlay0},${base}
-        set-face global LineNumberCursor   ${lavender},${surface2}+b
-        set-face global LineNumbersWrapped ${teal},${mantle}+i
-        set-face global MenuForeground     ${text},${surface2}+b
+        set-face global PrimarySelection   ${text},${surface2}
+        set-face global SecondarySelection ${text},${surface2}
+        set-face global PrimaryCursor      ${crust},${rosewater}
+        set-face global SecondaryCursor    ${text},${overlay0}
+        set-face global PrimaryCursorEol   ${surface2},${lavender}
+        set-face global SecondaryCursorEol ${surface2},${overlay1}
+        set-face global LineNumbers        ${overlay1},${base}
+        set-face global LineNumberCursor   ${rosewater},${surface2}+b
+        set-face global LineNumbersWrapped ${rosewater},${surface2}
+        set-face global MenuForeground     ${text},${surface1}+b
         set-face global MenuBackground     ${text},${surface0}
-        set-face global MenuInfo           ${mantle},${blue}
-        set-face global Information        ${mantle},${lavender}
-        set-face global Error              ${red},${base}
+        set-face global MenuInfo           ${crust},${teal}
+        set-face global Information        ${crust},${teal}
+        set-face global Error              ${crust},${red}
         set-face global StatusLine         ${text},${mantle}
-        set-face global StatusLineMode     ${base},${yellow}
-        set-face global StatusLineInfo     ${base},${green}
-        set-face global StatusLineValue    ${peach},${surface2}
-        set-face global StatusCursor       ${mantle},${lavender}
-        set-face global Prompt             ${green},${base}
+        set-face global StatusLineMode     ${crust},${yellow}
+        set-face global StatusLineInfo     ${crust}${teal}
+        set-face global StatusLineValue    ${crust},${yellow}
+        set-face global StatusCursor       ${crust},${rosewater}
+        set-face global Prompt             ${teal},${base}
         set-face global MatchingChar       ${maroon},${base}
-        set-face global Whitespace         ${overlay0},${base}+f
+        set-face global Whitespace         ${overlay1},${base}+f
         set-face global WrapMarker         Whitespace
         set-face global BufferPadding      ${base},${base}
 
