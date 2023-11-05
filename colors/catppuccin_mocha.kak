@@ -56,7 +56,7 @@ evaluate-commands %sh{
         set-face global Error              ${crust},${red}
         set-face global StatusLine         ${text},${mantle}
         set-face global StatusLineMode     ${crust},${yellow}
-        set-face global StatusLineInfo     ${crust}${teal}
+        set-face global StatusLineInfo     ${crust},${teal}
         set-face global StatusLineValue    ${crust},${yellow}
         set-face global StatusCursor       ${crust},${rosewater}
         set-face global Prompt             ${teal},${base}+b
