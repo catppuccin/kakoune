@@ -1,83 +1,82 @@
 # Catppuccin theme for Kakoune
 
-# Color palette
-declare-option	str	rosewater			'rgb:f2d5cf'
-declare-option	str	red					'rgb:e78284'
-declare-option	str	mauve				'rgb:ca9ee6'
-declare-option	str	maroon				'rgb:ea999c'
-declare-option	str	pink				'rgb:f4b8e4'
-declare-option	str	cyan				'rgb:85c1dc'
-declare-option	str	yellow				'rgb:e5c890'
-declare-option	str	green				'rgb:a6d189'
-declare-option	str	white				'rgb:c6d0f5'
-declare-option	str	blue				'rgb:8caaee'
-declare-option	str	sky					'rgb:99d1db'
-declare-option	str	lavender			'rgb:babbf1'
-declare-option	str	black1				'rgb:292c3c'
-declare-option	str	black2				'rgb:303446'
-declare-option	str black3				'rgb:414559'
-declare-option	str orange				'rgb:ef9f76'
-declare-option	str teal				'rgb:81c8be'
-declare-option	str	gray0				'rgb:626880'
-declare-option	str	gray1				'rgb:737994'
-declare-option	str	bright_red			%opt{red}
-declare-option	str	bright_green		%opt{green}
-declare-option	str	bright_yellow		%opt{yellow}
-declare-option	str	bright_blue			%opt{blue}
-declare-option	str	bright_cyan			%opt{cyan}
-declare-option	str	bright_white		%opt{white}
-declare-option	str	foreground			%opt{white}
-declare-option	str	background			%opt{black2}
+evaluate-commands %sh{
+    rosewater='rgb:f2d5cf'
+    flamingo='rgb:eebebe'
+    pink='rgb:f4b8e4'
+    mauve='rgb:ca9ee6'
+    red='rgb:e78284'
+    maroon='rgb:ea999c'
+    peach='rgb:ef9f76'
+    yellow='rgb:e5c890'
+    green='rgb:a6d189'
+    teal='rgb:81c8be'
+    sky='rgb:99d1db'
+    sapphire='rgb:85c1dc'
+    blue='rgb:8caaee'
+    lavender='rgb:babbf1'
+    text='rgb:c6d0f5'
+    subtext1='rgb:b5bfe2'
+    subtext0='rgb:a5adce'
+    overlay2='rgb:949cbb'
+    overlay1='rgb:838ba7'
+    overlay0='rgb:737994'
+    surface2='rgb:626880'
+    surface1='rgb:51576d'
+    surface0='rgb:414559'
+    base='rgb:303446'
+    mantle='rgb:292c3c'
+    crust='rgb:232634'
 
-# Markup
-set-face	global	title				"%opt{rosewater}"
-set-face	global	header				"%opt{bright_red}"
-set-face	global	bold				"%opt{mauve}"
-set-face	global	italic				"%opt{lavender}"
-set-face	global	mono				"%opt{green}"
-set-face	global	block				"%opt{cyan}"
-set-face	global	link				"%opt{green}"
-set-face	global	bullet				"%opt{green}"
-set-face	global	list				"%opt{white}"
+    echo "
+        set-face global title  ${text}+b
+        set-face global header ${subtext0}+b
+        set-face global bold   ${maroon}+b
+        set-face global italic ${maroon}+i
+        set-face global mono   ${green}
+        set-face global block  ${sapphire}
+        set-face global link   ${blue}
+        set-face global bullet ${peach}
+        set-face global list   ${peach}
 
-# Builtins
-set-face	global	Default				"%opt{white},%opt{background}"
-set-face	global	PrimarySelection	"%opt{gray0},%opt{lavender}"
-set-face	global	SecondarySelection	"%opt{lavender},%opt{gray0}"
-set-face	global	PrimaryCursor		"%opt{background},%opt{rosewater}"
-set-face	global	SecondaryCursor		"%opt{black1},%opt{teal}"
-set-face	global	PrimaryCursorEol	"%opt{gray0},%opt{mauve}"
-set-face	global	SecondaryCursorEol	"%opt{gray0},%opt{maroon}"
-set-face	global	LineNumbers			"%opt{gray1},%opt{background}"
-set-face	global	LineNumberCursor	"%opt{lavender},%opt{gray0}+b"
-set-face	global	LineNumbersWrapped	"%opt{teal},%opt{black1}+i"
-set-face	global	MenuForeground 		"%opt{white},%opt{gray0}+b"
-set-face	global	MenuBackground		"%opt{white},%opt{black3}"
-set-face	global	MenuInfo			"%opt{black1},%opt{blue}"
-set-face	global	Information			"%opt{black1},%opt{lavender}"
-set-face	global	Error				"%opt{red},%opt{black2}"
-set-face	global	StatusLine			"%opt{white},%opt{black1}"
-set-face	global	StatusLineMode		"%opt{black2},%opt{yellow}"
-set-face	global	StatusLineInfo		"%opt{background},%opt{green}"
-set-face	global	StatusLineValue		"%opt{orange},%opt{gray0}"
-set-face	global	StatusCursor		"%opt{black1},%opt{lavender}"
-set-face	global	Prompt				"%opt{green},%opt{black2}"
-set-face	global	MatchingChar		"%opt{maroon},%opt{black2}"
-set-face	global	Whitespace			"%opt{gray1},%opt{background}+f"
-set-face	global	WrapMarker			Whitespace
-set-face	global	BufferPadding		"%opt{background},%opt{background}"
+        set-face global Default            ${text},${base}
+        set-face global PrimarySelection   ${text},${surface2}
+        set-face global SecondarySelection ${text},${surface2}
+        set-face global PrimaryCursor      ${crust},${rosewater}
+        set-face global SecondaryCursor    ${text},${overlay0}
+        set-face global PrimaryCursorEol   ${surface2},${lavender}
+        set-face global SecondaryCursorEol ${surface2},${overlay1}
+        set-face global LineNumbers        ${overlay1},${base}
+        set-face global LineNumberCursor   ${rosewater},${surface2}+b
+        set-face global LineNumbersWrapped ${rosewater},${surface2}
+        set-face global MenuForeground     ${text},${surface1}+b
+        set-face global MenuBackground     ${text},${surface0}
+        set-face global MenuInfo           ${crust},${teal}
+        set-face global Information        ${crust},${teal}
+        set-face global Error              ${crust},${red}
+        set-face global StatusLine         ${text},${mantle}
+        set-face global StatusLineMode     ${crust},${yellow}
+        set-face global StatusLineInfo     ${crust},${teal}
+        set-face global StatusLineValue    ${crust},${yellow}
+        set-face global StatusCursor       ${crust},${rosewater}
+        set-face global Prompt             ${teal},${base}+b
+        set-face global MatchingChar       ${maroon},${base}
+        set-face global Whitespace         ${overlay1},${base}+f
+        set-face global WrapMarker         Whitespace
+        set-face global BufferPadding      ${base},${base}
 
-# Code
-set-face	global	value				"%opt{orange}"
-set-face	global	type				"%opt{rosewater}"
-set-face	global	variable			"%opt{white}"
-set-face	global	module				"%opt{maroon}"
-set-face	global	function			"%opt{sky}"
-set-face	global	string				"%opt{green}"
-set-face	global	keyword				"%opt{blue}"
-set-face	global	operator			"%opt{blue}"
-set-face	global	attribute			"%opt{green}"
-set-face	global	comment				"%opt{gray1}"
-set-face	global	documentation		comment
-set-face	global	meta				"%opt{pink}"
-set-face	global	builtin				"%opt{lavender}+b"
+        set-face global value         ${peach}
+        set-face global type          ${blue}
+        set-face global variable      ${text}
+        set-face global module        ${maroon}
+        set-face global function      ${blue}
+        set-face global string        ${green}
+        set-face global keyword       ${mauve}
+        set-face global operator      ${sky}
+        set-face global attribute     ${green}
+        set-face global comment       ${overlay0}
+        set-face global documentation comment
+        set-face global meta          ${yellow}
+        set-face global builtin       ${red}
+    "
+}
