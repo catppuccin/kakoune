@@ -1,8 +1,8 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/mawww/kakoune">Kakoune</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+  Catppuccin for <a href="https://github.com/mawww/kakoune">Kakoune</a>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
@@ -12,21 +12,39 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/kakoune/main/assets/res.webp"/>
+  <img src="assets/preview.webp"/>
 </p>
 
-## About
-This is a port of Catppuccin for the [Kakoune](https://kakoune.org) modal editor. I made this port because I really like the theme and this keep me motivated to switch to Kakoune.
+## Previews
 
-## Installation with [plug.kak](https://github.com/andreyorst/plug.kak)
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.webp"/>
+</details>
+
+## Usage
+
+### Installation w/ [plug.kak](https://github.com/andreyorst/plug.kak)
 
 ```kak
 plug "catppuccin/kakoune" theme config %{
-	colorscheme catppuccin_(ThemeName)
+  colorscheme catppuccin_(ThemeName)
 }
 ```
 
-## Manual installation
+### Manual Installation
 
 ```sh
 mkdir -p ~/.config/kak/colors
