@@ -1,4 +1,4 @@
-# Catppuccin theme for Kakoune
+# Catppuccin Mocha
 
 evaluate-commands %sh{
     rosewater='rgb:f5e0dc'
@@ -27,7 +27,7 @@ evaluate-commands %sh{
     base='rgb:1e1e2e'
     mantle='rgb:181825'
     crust='rgb:11111b'
-
+    
     echo "
         set-face global title  ${text}+b
         set-face global header ${subtext0}+b
