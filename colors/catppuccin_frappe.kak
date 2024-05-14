@@ -27,7 +27,7 @@ evaluate-commands %sh{
     base='rgb:303446'
     mantle='rgb:292c3c'
     crust='rgb:232634'
-    
+
     echo "
         set-face global title  ${text}+b
         set-face global header ${subtext0}+b

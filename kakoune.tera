@@ -11,9 +11,10 @@ whiskers:
 # Catppuccin {{ flavor.name }}
 
 evaluate-commands %sh{
-    {% for _, color in palette -%}
+    {%- for _, color in palette %}
     {{ color.identifier }}='rgb:{{ color.hex }}'
-    {% endfor %}
+    {%- endfor %}
+
     echo "
         set-face global title  ${text}+b
         set-face global header ${subtext0}+b
