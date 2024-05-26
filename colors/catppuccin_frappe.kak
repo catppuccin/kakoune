@@ -1,4 +1,4 @@
-# Catppuccin theme for Kakoune
+# Catppuccin Frappé
 
 evaluate-commands %sh{
     rosewater='rgb:f2d5cf'
