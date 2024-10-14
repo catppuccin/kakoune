@@ -1,4 +1,4 @@
-# Catppuccin theme for Kakoune
+# Catppuccin Latte
 
 evaluate-commands %sh{
     rosewater='rgb:dc8a78'
