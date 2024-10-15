@@ -45,7 +45,7 @@ plug "catppuccin/kakoune" theme config %{
 ```
 
 Alternatively, you can manually install the theme by transferring the files in
-the [themes](./themes) directory to `$XDG_CONFIG_HOME/kak/colors/`.
+the [colors](./colors) directory to `$XDG_CONFIG_HOME/kak/colors/`.
 
 ## 💝 Thanks to
 
