@@ -1,17 +1,14 @@
 ---
 whiskers:
-  version: "2.2.0"
+  version: 2.5.1
   matrix:
     - flavor
   filename: "colors/catppuccin_{{ flavor.identifier }}.kak"
 ---
-
-{%- set palette = flavor.colors -%}
-
 # Catppuccin {{ flavor.name }}
 
 evaluate-commands %sh{
-    {%- for _, color in palette %}
+    {%- for _, color in flavor.colors %}
     {{ color.identifier }}='rgb:{{ color.hex }}'
     {%- endfor %}
 

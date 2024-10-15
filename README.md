@@ -36,7 +36,7 @@
 
 ## Usage
 
-### Installation w/ [plug.kak](https://github.com/andreyorst/plug.kak)
+The theme can be installed via [plug.kak](https://github.com/andreyorst/plug.kak):
 
 ```kak
 plug "catppuccin/kakoune" theme config %{
@@ -44,16 +44,8 @@ plug "catppuccin/kakoune" theme config %{
 }
 ```
 
-### Manual Installation
-
-```sh
-mkdir -p ~/.config/kak/colors
-cd ~/.config/kak/colors
-curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_mocha.kak"
-curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_macchiato.kak"
-curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_frappe.kak"
-curl -O "https://raw.githubusercontent.com/catppuccin/kakoune/main/colors/catppuccin_latte.kak"
-```
+Alternatively, you can manually install the theme by transferring the files in
+the [colors](./colors) directory to `$XDG_CONFIG_HOME/kak/colors/`.
 
 ## 💝 Thanks to
 
