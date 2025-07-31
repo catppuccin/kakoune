@@ -36,7 +36,7 @@
 
 ## Usage
 
-#### Manual
+### Manual
 1. Copy the contents of the [colors/](./colors) directory to `~/.config/kak/colors`.
 2. Put the following in your `~/.config/kak/kakrc`:
 
@@ -44,9 +44,9 @@
 colorscheme catppuccin_flavor
 ```
 
-3. Replace flavor with your preferred Catppuccin flavor!
+3. Replace `flavor` with your preferred Catppuccin flavor!
 
-#### plug.kak
+### plug.kak
 The theme can also be installed via [plug.kak](https://github.com/andreyorst/plug.kak):
 
 ```kak
